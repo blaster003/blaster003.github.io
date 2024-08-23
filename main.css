@@ -1,0 +1,75 @@
+html {
+    background-color: whitesmoke;
+    background-image: url("https://files.catbox.moe/qfeodj.png");
+    background-color: #77abff;background-attachment: fixed;
+    animation: moveIt 6s linear infinite;
+}
+@keyframes moveIt {
+    100% {background-position: -926px 588px;}
+}
+body {
+    background-color: #5c98f7;
+    width: 75%;
+    margin: 0px auto;
+    /* margin-left: 17.5%; */
+    margin-bottom: 80px;
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+}
+h1 {
+    background-color: #235db9;
+    color: white;
+    margin-bottom: 0;
+    padding: 5px;
+}
+h2, h3, h4, h5, h6 {
+    margin: 10px;
+    width: 90%;
+}
+nav {
+    background-color: #4270b9;
+}
+p, a {
+    margin: 10px;
+}
+.squash {
+    margin: 0;
+}
+a {
+    color: #c5d4ff;
+}
+aside {
+    float: left;
+    width: 25%;
+    bottom: 0;
+    text-align: center;
+    background-color: #4377cb;
+    color: white;
+    padding: 0;
+    margin-right: 10px;
+}
+img {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sona, .twowcon {
+    display: block;
+    width: 90%;
+    border: 2px solid #1d4a93;
+}
+.twowcon {
+    width: 128px;
+    display: inline;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.icon {
+    width: 16px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.main {
+    text-align: left;
+}
